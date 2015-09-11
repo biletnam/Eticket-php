@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>E-Ticket</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700'>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo span4">
+                        <h1 class="green"><a href="" >E-Ticket App <span class="green">Sistema de Emisión de Multa.</span></a></h1>
+                    </div>
+                     
+                    <div class="links span8">
+                        <a class="home" href="" rel="tooltip" data-placement="bottom" data-original-title="Olvidaste tu Pass"></a>
+                        <a class="blog" href="" rel="tooltip" data-placement="bottom" data-original-title="Blog"></a>
+                    </div> 
+
+                </div>
+            </div>
+        </div>
+
+        <div class="register-container container">
+            <div class="row">
+                <div class="iphone span5">
+                    <img src="assets/img/Logo Software Seekers Azul.png" alt="">
+                </div>  
+                <div class="register span6">
+              
+                    <form action="login.php" method="post">
+
+                        <h2>INGRESA <span class="green"><strong>E-Ticket</strong></span></h2>
+                        
+                        <label for="Usuario">Usuario</label>
+                        <input type="text" id="user" name="Usuario" placeholder="Ingrese Usuario..">
+
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Ingrese Contraseña..">
+
+                        <div class="alert alert-danger" id="alerta" role="alert">Usuario o Password Incorrectos</div>
+
+                        <button id="login">INGRESAR</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Javascript -->
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="src/login.js"></script>
+    </body>
+
+</html>
+
+    
